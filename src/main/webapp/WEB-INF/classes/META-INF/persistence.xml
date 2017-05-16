@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+             version="2.0" xmlns="http://java.sun.com/xml/ns/persistence">
+
+<persistence-unit name="dbtest">
+    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+    <jta-data-source>java:jboss/datasources/PostgreSQLDS</jta-data-source>
+    <non-jta-data-source>java:jboss/datasources/PostgreSQLDS</non-jta-data-source>
+    <class>com.coredumpproject.entities.Employee</class>
+    <properties>
+        <property name="hibernate.show_sql" value="true" />
+        <property name="hibernate.format_sql" value="true" />
+    </properties> 
+</persistence-unit>
+
+</persistence>
