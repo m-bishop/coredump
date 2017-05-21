@@ -273,7 +273,7 @@
         _websocket.onmessage = function(evt) { onMessage(evt) };
         _websocket.onopen = function(evt) { onOpen(evt) };
 
-        print("Welcome to CoreDump.\nType 'help' for help.\n");
+        print("Welcome to Chat.\nType 'help' for help.\n");
 
     };
 

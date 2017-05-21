@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dbtest:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="Coredump-0.0.1.war">
+      <element id="artifact" artifact-name="dbtest:war exploded" />
+    </root>
+  </artifact>
+</component>
