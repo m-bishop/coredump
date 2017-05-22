@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Coredump" />
         <module name="dbtest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Coredump" target="1.8" />
       <module name="dbtest" target="1.8" />
     </bytecodeTargetLevel>
   </component>
