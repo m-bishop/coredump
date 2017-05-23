@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Coredump.iml" filepath="$PROJECT_DIR$/Coredump.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dbtest.iml" filepath="$PROJECT_DIR$/dbtest.iml" />
     </modules>
   </component>
 </project>
