@@ -1,7 +1,8 @@
 (function() {
 
     //var wsUri = "ws://localhost:8000/websocket-chat/chat";
-    var wsUri = "ws://" + document.location.hostname + document.location.pathname + "chat";
+    //var wsUri = "ws://" + document.location.hostname + document.location.pathname + "chat";
+    var wsUri = "ws://" + document.location.hostname + ":8080" + document.location.pathname + "chat";
     var _websocket = new WebSocket(wsUri);
 
     var _username = "";
